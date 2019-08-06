@@ -3,7 +3,7 @@ import java.lang.*;
 import java.io.*;
 import java.awt.*;
 
-public class RobotInAGrid
+public class RobotInAGrid{
     private static int [][] grid = {{0, 0, 1}, {0, 1, 0}, {0, 0, 0}, {1, 1, 0}}; //0 = good spots, 1 = "off limit" spots
     //note that the robot will start in the top left(0,0) and will need to travel to the bottom right
     //the point coordinates for my grid will increase moving right and down
